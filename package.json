@@ -2,9 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio",
-  "main": "index.html",
+  "main": "src/app.js",
+  "source": "src/app.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "index.html",
+    "build": "build"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "typed.js": "^2.0.16"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "parcel": "^2.8.3"
   }
 }
