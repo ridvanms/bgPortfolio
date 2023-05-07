@@ -1,2 +1,2 @@
-# bgPortfolio
-creating bg Portfolio
+# portfolio
+Creating Portfolio

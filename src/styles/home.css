@@ -1,0 +1,16 @@
+#homeSection{
+    margin-bottom: 0;
+}
+#homeSection h1{
+    padding-top:0;
+}
+
+@media (max-width:500px) {
+    #homeSection{
+        margin-top: 5em;
+    }
+    #homeSection h1{
+        padding-top: 1em;
+        
+    }
+}

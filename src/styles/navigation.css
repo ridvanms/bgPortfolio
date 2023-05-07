@@ -1,0 +1,71 @@
+
+.toggleImg{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.toggleImg:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style the navigation menu */
+body.dark header {
+    mix-blend-mode: difference;
+}
+/*  */
+header .header-content {
+    z-index: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 88px 0 96px;
+}
+header .header-content .left-part, header .header-content .right-part {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: inherit;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+header .header-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header .header-content .right-part .theme-switch {
+    cursor: pointer;
+    transform: translateY(48px);
+}
+header .header-content .right-part ul li {
+    margin-left: 24px;
+}
+
+
+.icons-style {
+    opacity: 1;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    display: block;
+}
